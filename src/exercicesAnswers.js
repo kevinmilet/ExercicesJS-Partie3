@@ -36,7 +36,8 @@ let upperTheSentence = function(sentence) {
 
 //Exercice 7 : Mettre en minuscule la chaîne.
 let lowerTheSentence = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.toLowerCase();
+    return reponse;
 }
 
 //Exercice 8 : Supprimer les espaces avant et après la chaîne.
