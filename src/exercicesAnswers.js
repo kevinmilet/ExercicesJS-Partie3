@@ -12,7 +12,8 @@ let replaceFirstEBySpace = function(sentence) {
 
 //Exercice 3 : Concaténer les deux chaînes de caractères.
 let concatenateSentences = function(firstSentence, secondSentence) {
-    return 'A compléter';
+    let reponse = firstSentence.concat(secondSentence);
+    return reponse;
 }
 
 //Exercice 4 : Afficher le cinquième caractère de la chaîne.
