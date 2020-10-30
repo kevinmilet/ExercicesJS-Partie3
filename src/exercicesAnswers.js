@@ -24,7 +24,8 @@ let displayFifthCharacter = function(sentence) {
 
 //Exercice 5 : Afficher les 9 premiers caractère.
 let displayFirstNineCharacters = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.substring(0, 9);
+    return reponse;
 }
 
 //Exercice 6 : Mettre en majuscule la chaîne.
