@@ -18,7 +18,8 @@ let concatenateSentences = function(firstSentence, secondSentence) {
 
 //Exercice 4 : Afficher le cinquième caractère de la chaîne.
 let displayFifthCharacter = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.substr(4, 1);
+    return reponse;
 }
 
 //Exercice 5 : Afficher les 9 premiers caractère.
