@@ -30,7 +30,8 @@ let displayFirstNineCharacters = function(sentence) {
 
 //Exercice 6 : Mettre en majuscule la chaîne.
 let upperTheSentence = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.toUpperCase();
+    return reponse;
 }
 
 //Exercice 7 : Mettre en minuscule la chaîne.
