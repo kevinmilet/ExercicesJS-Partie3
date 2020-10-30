@@ -42,7 +42,8 @@ let lowerTheSentence = function(sentence) {
 
 //Exercice 8 : Supprimer les espaces avant et après la chaîne.
 let removeSpaces = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.slice(2, sentence.length);
+    return reponse;
 }
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
