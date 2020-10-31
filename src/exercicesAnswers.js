@@ -54,7 +54,8 @@ let isString = function(sentence) {
 
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function(fileName) {
-    return 'A compléter';
+    let reponse = fileName.split('.').pop();
+    return reponse;
 }
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
