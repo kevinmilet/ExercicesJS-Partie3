@@ -42,13 +42,14 @@ let lowerTheSentence = function(sentence) {
 
 //Exercice 8 : Supprimer les espaces avant et après la chaîne.
 let removeSpaces = function(sentence) {
-    let reponse = sentence.slice(2, sentence.length);
+    let reponse = sentence.trim();
     return reponse;
 }
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.valueOf(sentence);
+    return reponse;
 }
 
 //Exercice 10 : Afficher l'extension du fichier.
