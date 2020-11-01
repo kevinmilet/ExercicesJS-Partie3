@@ -66,7 +66,8 @@ let countSpaces = function(sentence) {
 
 //Exercice 12 : Inverser une chaîne de caractères.
 let invertSentence = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.split('').reverse().join('');
+    return reponse;
 }
 
 //Exercice 13 : Chercher si dans la chaîne de caractère se trouve "La Manu".
