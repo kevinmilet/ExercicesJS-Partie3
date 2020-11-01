@@ -60,7 +60,8 @@ let displayExtension = function(fileName) {
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
 let countSpaces = function(sentence) {
-    return 'A compléter';
+    let reponse = sentence.split(' ').length - 1;
+    return reponse;
 }
 
 //Exercice 12 : Inverser une chaîne de caractères.
