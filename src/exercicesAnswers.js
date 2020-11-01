@@ -84,7 +84,8 @@ let displayAbsoluteValue = function(number) {
 
 //Exercice 15 : Afficher les valeurs absolues de plusieurs nombres.
 let displayAbsoluteValues = function(numbersArray) {
-    return 'A compléter';
+    let reponse = numbersArray.forEach(Math.abs(''));
+    return reponse;
 }
 
 //Exercice 16 : Calculer la surface d'un cercle en fonction de son rayon. L'arondir à l'entier le plus proche.
@@ -95,6 +96,6 @@ let calculateArea = function(radius) {
 
 //Exercice 17 : Calculer l'hypothènuse d\'un triangle rectangle. Arrondir à l'entier inférieur.
 let calculateHypotenuse = function(a, b) {
-    let reponse = Math.round(Math.hypot(a, b));
+    let reponse = Math.floor(Math.hypot(a, b));
     return reponse;
 } 
