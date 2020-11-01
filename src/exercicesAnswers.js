@@ -97,4 +97,4 @@ let calculateArea = function(radius) {
 let calculateHypotenuse = function(a, b) {
     let reponse = Math.round(Math.hypot(a, b));
     return reponse;
-}
+} 
