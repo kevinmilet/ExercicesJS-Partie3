@@ -78,7 +78,8 @@ let searchInSentence = function(sentence) {
 
 //Exercice 14 : Afficher la valeur absolue d'un nombre.
 let displayAbsoluteValue = function(number) {
-    return 'A compléter';
+    let reponse = Math.abs(number);
+    return reponse;
 }
 
 //Exercice 15 : Afficher les valeurs absolues de plusieurs nombres.
