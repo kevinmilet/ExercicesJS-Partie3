@@ -105,5 +105,6 @@ let calculateArea = function(radius) {
 //Exercice 17 : Calculer l'hypothènuse d\'un triangle rectangle. Arrondir à l'entier inférieur.
 let calculateHypotenuse = function(a, b) {
     let reponse = Math.floor(Math.hypot(a, b));
+    // let reponse = Math.floor(Math.sqrt(a*a+b*b));
     return reponse;
 } 
