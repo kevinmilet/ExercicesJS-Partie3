@@ -18,7 +18,9 @@ let concatenateSentences = function(firstSentence, secondSentence) {
 
 //Exercice 4 : Afficher le cinquième caractère de la chaîne.
 let displayFifthCharacter = function(sentence) {
-    let reponse = sentence.substr(4, 1);
+    // let reponse = sentence.substr(4, 1);
+    let reponse = sentence.substring(4, 5);
+
     // let reponse = sentence.charAt(4);
     return reponse;
 }
@@ -107,4 +109,4 @@ let calculateHypotenuse = function(a, b) {
     let reponse = Math.floor(Math.hypot(a, b));
     // let reponse = Math.floor(Math.sqrt(a*a+b*b));
     return reponse;
-} 
+}
