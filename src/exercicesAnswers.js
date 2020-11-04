@@ -92,6 +92,7 @@ let displayAbsoluteValues = function(numbersArray) {
     numbersArray.forEach((element, index) => {
         numbersArray[index] = Math.abs(element);
     });
+    // return numbersArray.map(Math.abs, numbersArray);
     return numbersArray;
 }
 
