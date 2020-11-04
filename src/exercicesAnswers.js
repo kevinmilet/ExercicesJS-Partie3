@@ -19,6 +19,7 @@ let concatenateSentences = function(firstSentence, secondSentence) {
 //Exercice 4 : Afficher le cinquième caractère de la chaîne.
 let displayFifthCharacter = function(sentence) {
     let reponse = sentence.substr(4, 1);
+    // let reponse = sentence.charAt(4);
     return reponse;
 }
 
@@ -48,8 +49,12 @@ let removeSpaces = function(sentence) {
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function(sentence) {
-    let reponse = sentence.startsWith(sentence);
-    return reponse;
+    // let reponse = sentence.startsWith(sentence);
+    // return reponse;
+    if(typeof sentence === 'string')
+    return true;
+  else
+    return false;
 }
 
 //Exercice 10 : Afficher l'extension du fichier.
